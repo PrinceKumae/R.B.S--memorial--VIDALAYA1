@@ -1,0 +1,177 @@
+<section class="home-section">
+  <h1 class="home-title">Welcome to R.B.S Memorial Vidhayaly</h1>
+  <p class="home-desc">
+    We are dedicated to nurturing young minds and providing a safe, inspiring environment for every student.<br>
+    हम हर विद्यार्थी को सुरक्षित और प्रेरणादायक वातावरण में गुणवत्तापूर्ण शिक्षा देने के लिए प्रतिबद्ध हैं।
+  </p>
+
+  <h1 class="home-subtitle">School Highlights</h1>
+  <ul class="home-list">
+    <li>Experienced and caring teachers</li>
+    <li>Modern classrooms and science labs</li>
+    <li>Sports, arts, and cultural activities</li>
+    <li>Focus on holistic development</li>
+  </ul>
+
+  <h1 class="home-subtitle">Latest News</h1>
+  <ul class="home-list">
+    <li>Admissions open for 2025-26 session</li>
+    <li>Annual Sports Day on 25th November</li>
+    <li>Parent-Teacher Meeting: 15th October</li>
+  </ul>
+
+  <h1 class="home-subtitle">Photo Gallery</h1>
+  <div class="gallery">
+    <img src="school7.jpg" alt="School Photo">
+    <img src="school9.jpg" alt="School Event">
+    <img src="school3.jpg" alt="school Photo">
+    <img src="school8.jpg" alt="School Activity">
+    <img src="school12.jpg" alt="school building">
+    <img src="school13.jpg" alt="school class">
+    <img src="school2.jpg" alt="school class">
+    <img src="school4.jpg" alt="school class">
+    <img src="school5.jpg" alt="school class">
+  </div>
+
+  <h1 class="home-subtitle">Quick Links</h1>
+  <div class="quick-links">
+    <a href="admissions.html">Admissions</a> |
+    <a href="academics.html">Academics</a> |
+    <a href="contact.html">Contact Us</a>
+  </div>
+</section>
+<style>
+  .home-section {
+    background: linear-gradient(120deg, #17ceb6 0%, #cbfb1d 100%);
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(54, 168, 206, 0.1);
+    padding: 2px 30px;
+    max-width: 1450px;
+    margin: 3px auto;
+    animation: fadeInUp 1.2s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .home-title {
+    color: #1109aa;
+    font-size: 2.2rem;
+    margin-bottom: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    animation: slideInLeft 1s;
+  }
+
+  .home-desc {
+    font-size: 1.1rem;
+    color: #140909;
+    margin-bottom: 18px;
+    text-align: center;
+    line-height: 1.6;
+    animation: fadeIn 1.5s;
+  }
+
+  .home-subtitle {
+    color: #070808;
+    margin-top: 28px;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+    animation: slideInRight 1s;
+  }
+
+  .home-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 18px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    animation: fadeInList 1.5s;
+  }
+
+  .home-list li {
+    background: #d8f3dc;
+    color: #1b4332;
+    padding: 8px 22px;
+    border-radius: 8px;
+    font-weight: 500;
+    box-shadow: 0 2px 8px rgba(44, 62, 80, 0.07);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    animation: slideInLi 0.7s;
+  }
+
+  .home-list li:hover {
+    transform: scale(1.05) translateX(8px);
+    box-shadow: 0 6px 18px rgba(44, 62, 80, 0.13);
+    background: #b7e4c7;
+  }
+
+  .gallery {
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    margin-bottom: 18px;
+    animation: fadeIn 1.5s;
+  }
+
+  .gallery img {
+    width: 150px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(44, 62, 80, 0.10);
+    transition: transform 0.3s;
+    animation: slideInImg 1s;
+  }
+
+  .gallery img:hover {
+    transform: scale(1.08) rotate(-2deg);
+  }
+
+  .quick-links {
+    text-align: center;
+    margin-top: 10px;
+    animation: fadeIn 1.5s;
+  }
+
+  .quick-links a {
+    color: #2d6a4f;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 8px;
+    transition: color 0.3s;
+  }
+
+  .quick-links a:hover {
+    color: #1b4332;
+    text-decoration: underline;
+  }
+
+  /* Animations */
+  @keyframes fadeInUp {
+    0% { opacity: 0; transform: translateY(40px);}
+    100% { opacity: 1; transform: translateY(0);}
+  }
+  @keyframes slideInLeft {
+    0% { opacity: 0; transform: translateX(-60px);}
+    100% { opacity: 1; transform: translateX(0);}
+  }
+  @keyframes slideInRight {
+    0% { opacity: 0; transform: translateX(60px);}
+    100% { opacity: 1; transform: translateX(0);}
+  }
+  @keyframes fadeIn {
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+  }
+  @keyframes fadeInList {
+    0% { opacity: 0; transform: translateY(30px);}
+    100% { opacity: 1; transform: translateY(0);}
+  }
+  @keyframes slideInLi {
+    0% { opacity: 0; transform: translateX(-30px);}
+    100% { opacity: 1; transform: translateX(0);}
+  }
+  @keyframes slideInImg {
+    0% { opacity: 0; transform: translateY(30px);}
+    100% { opacity: 1; transform: translateY(0);}
+  }
+</style>

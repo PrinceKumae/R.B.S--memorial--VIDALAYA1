@@ -1,0 +1,96 @@
+<section class="about-section">
+  <h2 class="about-title">About Our School</h2>
+  <p class="about-desc">
+    R.B.S Memorial Vidhayaly, located in Shri Krishan Nagar Chaukhanda Chitauli, Sasaram Rohtas (Bihar), is committed to providing quality education since its establishment. Our mission is to nurture young minds and empower them for a bright future.
+  </p>
+  <ul class="about-list">
+    <li>Experienced and dedicated teachers</li>
+    <li>Modern classrooms and facilities</li>
+    <li>Focus on academics and co-curricular activities</li>
+    <li>Safe and supportive environment</li>
+  </ul>
+  <p class="about-welcome">
+    We welcome all students and parents to be a part of our academic family.
+  </p>
+</section>
+<style>
+  .about-section {
+    background: linear-gradient(120deg, #0371b5 0%, #06990f 100%);
+    border-radius: 50px;
+    box-shadow: 0 4px 24px rgba(44, 62, 80, 0.10);
+    padding: 200px 30px;
+    max-width: 1425px;
+    margin: 3px auto;
+    animation: fadeInUp 1.2s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .about-title {
+    color: hsl(30, 43%, 3%);
+    font-size: 2.2rem;
+    margin-bottom: 35px;
+    text-align: center;
+    letter-spacing: 2px;
+    animation: slideIn 1s ease;
+  }
+
+  .about-desc, .about-welcome {
+    font-size: 1.1rem;
+    color: #eaf10c;
+    margin-bottom: 18px;
+    text-align: center;
+    line-height: 1.6;
+    animation: fadeIn 1.5s;
+  }
+
+  .about-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 18px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-items: center;
+    animation: fadeInList 1.5s;
+  }
+
+  .about-list li {
+    background: #0ad428;
+    color: #1b4332;
+    padding: 10px 28px;
+    border-radius: 8px;
+    font-weight: 500;
+    box-shadow: 0 2px 8px rgba(44, 62, 80, 0.07);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    animation: bounceIn 0.7s;
+  }
+
+  .about-list li:hover {
+    transform: scale(1.06) translateY(-4px);
+    box-shadow: 0 6px 18px rgba(44, 62, 80, 0.13);
+    background: #4265f0;
+  }
+
+  /* Animations */
+  @keyframes fadeInUp {
+    0% { opacity: 0; transform: translateY(40px);}
+    100% { opacity: 1; transform: translateY(0);}
+  }
+  @keyframes slideIn {
+    0% { opacity: 0; transform: translateX(-60px);}
+    100% { opacity: 1; transform: translateX(0);}
+  }
+  @keyframes fadeIn {
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+  }
+  @keyframes fadeInList {
+    0% { opacity: 0; transform: translateY(30px);}
+    100% { opacity: 1; transform: translateY(0);}
+  }
+  @keyframes bounceIn {
+    0% { opacity: 0; transform: scale(0.7);}
+    60% { opacity: 1; transform: scale(1.1);}
+    100% { opacity: 1; transform: scale(1);}
+  }
+</style>

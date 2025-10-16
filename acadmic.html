@@ -1,0 +1,130 @@
+<section class="academic-section">
+  <h2 class="academic-title">Academics at R.B.S Memorial Vidhayaly</h2>
+  <p class="academic-desc">
+    Our school provides a balanced and comprehensive curriculum designed for the all-round development of students.<br>
+    हमारा विद्यालय विद्यार्थियों के सर्वांगीण विकास के लिए उत्कृष्ट शैक्षणिक कार्यक्रम प्रदान करता है।
+  </p>
+
+  <h3 class="academic-subtitle">Subjects Offered</h3>
+  <ul class="academic-list">
+    <li>Mathematics</li>
+    <li>Science (Physics, Chemistry, Biology)</li>
+    <li>English & Hindi</li>
+    <li>Social Studies</li>
+    <li>Computer Education</li>
+    <li>Art & Craft</li>
+    <li>Physical Education</li>
+  </ul>
+
+  <h3 class="academic-subtitle">Teaching Methodology</h3>
+  <p class="academic-method">
+    We use interactive teaching, smart classes, practical labs, and project-based learning for better understanding.<br>
+    हमारे शिक्षक स्मार्ट क्लास, प्रैक्टिकल, और प्रोजेक्ट आधारित शिक्षा का उपयोग करते हैं।
+  </p>
+
+  <h3 class="academic-subtitle">Assessment & Evaluation</h3>
+  <ul class="academic-list">
+    <li>Regular class tests and assignments</li>
+    <li>Half-yearly and annual exams</li>
+    <li>Project work and presentations</li>
+    <li>Continuous feedback to parents</li>
+  </ul>
+
+  <h3 class="academic-subtitle">Co-curricular Activities</h3>
+  <p class="academic-method">
+    Sports, arts, music, debates, and other activities for holistic growth.<br>
+    खेल, कला, संगीत, वाद-विवाद और अन्य गतिविधियाँ विद्यार्थियों के सर्वांगीण विकास के लिए।
+  </p>
+</section>
+<style>
+  .academic-section {
+    background: linear-gradient(120deg, #0cad24 0%, #83c5e1 100%);
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(44, 62, 80, 0.10);
+    padding: 8px 30px;
+    max-width: 1425px;
+    margin: 3px auto;
+    animation: fadeInUp 1.2s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .academic-title {
+    color: #101413;
+    font-size: 2.2rem;
+    margin-bottom: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    animation: slideInLeft 1s;
+  }
+
+  .academic-desc, .academic-method {
+    font-size: 1.1rem;
+    color: #0e0a0a;
+    margin-bottom: 18px;
+    text-align: center;
+    line-height: 1.6;
+    animation: fadeIn 1.5s;
+  }
+
+  .academic-subtitle {
+    color: #131916;
+    margin-top: 28px;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+    animation: slideInRight 1s;
+  }
+
+  .academic-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 18px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    animation: fadeInList 1.5s;
+  }
+
+  .academic-list li {
+    background: #d8f3dc;
+    color: #1b4332;
+    padding: 8px 22px;
+    border-radius: 8px;
+    font-weight: 500;
+    box-shadow: 0 2px 8px rgba(44, 62, 80, 0.07);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    animation: slideInLi 0.7s;
+  }
+
+  .academic-list li:hover {
+    transform: scale(1.05) translateX(8px);
+    box-shadow: 0 6px 18px rgba(44, 62, 80, 0.13);
+    background: #b7e4c7;
+  }
+
+  /* Animations */
+  @keyframes fadeInUp {
+    0% { opacity: 0; transform: translateY(40px);}
+    100% { opacity: 1; transform: translateY(0);}
+  }
+  @keyframes slideInLeft {
+    0% { opacity: 0; transform: translateX(-60px);}
+    100% { opacity: 1; transform: translateX(0);}
+  }
+  @keyframes slideInRight {
+    0% { opacity: 0; transform: translateX(60px);}
+    100% { opacity: 1; transform: translateX(0);}
+  }
+  @keyframes fadeIn {
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+  }
+  @keyframes fadeInList {
+    0% { opacity: 0; transform: translateY(30px);}
+    100% { opacity: 1; transform: translateY(0);}
+  }
+  @keyframes slideInLi {
+    0% { opacity: 0; transform: translateX(-30px);}
+    100% { opacity: 1; transform: translateX(0);}
+  }
+</style>
